@@ -1,0 +1,226 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: block;
+  font-family: "Barlow", sans-serif;
+}
+
+body header {
+  background-image: url("../images/photos/image-header.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header nav a {
+  padding: 1em;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+body header nav ul li {
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+body header .mh {
+  text-align: center;
+}
+
+body header .mh img {
+  padding-bottom: 15em;
+}
+
+body header .mh h1 {
+  font-family: "Fraunces", serif;
+  font-size: 62px;
+  color: white;
+}
+
+body main .mk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .mk article {
+  width: 50%;
+  height: 565px;
+}
+
+body main .egg {
+  background-image: url("../images/photos/image-transform.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+body main .cup {
+  background-image: url("../images/photos/image-stand-out.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+body main .txt {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10em;
+  background-color: white;
+}
+
+body main .txt h2 {
+  color: #23303e;
+  font-size: 3em;
+}
+
+body main .txt p {
+  padding-bottom: 2em;
+  padding-top: 2em;
+  color: #23303e;
+}
+
+body main .txt a {
+  font-family: "Fraunces", serif;
+  color: #23303e;
+}
+
+body main .txt .cherry {
+  background-image: url("../images/photos/image-graphic-design.jpeg");
+  background-size: 100%;
+  text-align: center;
+  padding: 0 12em;
+  padding-top: 24em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .txt .cherry h2 {
+  padding-bottom: 1.1em;
+  color: #19536b;
+  font-size: 2em;
+}
+
+body main .txt .cherry p {
+  color: #19536b;
+}
+
+body main .orange {
+  background-image: url("../images/photos/image-photography.jpeg");
+  background-size: 100%;
+  text-align: center;
+  padding: 0 12em;
+  padding-top: 24em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .orange h2 {
+  padding-bottom: 1.1em;
+  color: #19536b;
+  font-size: 2em;
+}
+
+body main .orange p {
+  color: #19536b;
+}
+
+body main .iner {
+  padding: 0 4em;
+  text-align: center;
+}
+
+body main .iner img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+body main .iner .comment {
+  padding: 3em 0;
+  color: #19536b;
+}
+
+body main .iner h4 {
+  font-family: "Fraunces", serif;
+}
+
+body main .iner .title {
+  padding-top: 1em;
+  padding-bottom: 12em;
+  color: #a7abae;
+  font-size: 0.9em;
+}
+
+body main .im img {
+  width: 24.8%;
+}
+
+body footer {
+  background-color: #90d4c5;
+  text-align: center;
+}
+
+body footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+body footer ul .about {
+  padding: 0 1.5em;
+  padding-bottom: 3em;
+  font-family: "Barlow", sans-serif;
+  color: #19536b;
+}
+
+body footer ul .social {
+  padding: 0 0.5em;
+}
+
+body footer img {
+  padding: 2em 0;
+}
+/*# sourceMappingURL=style.css.map */

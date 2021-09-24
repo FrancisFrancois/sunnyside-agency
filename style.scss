@@ -1,0 +1,225 @@
+@import "color.scss";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: block;
+    font-family: $barlow;
+  
+
+header {
+    background-image: url('../images/photos/image-header.jpeg');
+    background-size: 100%;
+    background-position: center;
+    
+     
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+        a {
+            padding: 1em;
+        }
+            ul {
+                display:flex;
+                flex-direction: row;
+                list-style-type: none;
+                    li  {
+                        padding: 1em 2em;
+                        text-decoration: none;
+                        
+                
+                    }
+                    
+            }
+
+    }
+    .mh {
+        text-align: center;
+          img {
+              padding-bottom: 15em;
+          }
+          h1 {
+              font-family: $frauces700;
+              font-size: 62px;
+              color: $white;
+          }
+
+    }
+    
+}
+
+main {
+    .mk {
+    display: flex;
+    flex-wrap: wrap;
+      article {
+          width: 50%;
+          height: 565px;
+          
+          }
+
+      }
+
+.egg {
+    background-image: url('../images/photos/image-transform.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cup {
+    background-image: url('../images/photos/image-stand-out.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.txt {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding:0 10em;
+    background-color: $white;
+
+}
+
+h2 {
+    color: $vddblue;
+    font-size: 3em;
+}
+
+p {
+    padding-bottom: 2em;
+    padding-top:2em;
+    color: $vddblue;
+
+}
+
+a {
+    font-family: $frauces700;
+    color: $vddblue;
+}
+
+.cherry {
+    background-image: url('../images/photos/image-graphic-design.jpeg');
+    background-size: 100%;
+    text-align: center;
+    padding: 0 12em;
+    padding-top: 24em;
+    display: flex;
+    flex-direction: column;
+
+          h2 {
+            padding-bottom: 1.1em;
+            color: $dkblue;
+            font-size: 2em;
+    }
+
+                p {
+                    color: $dkblue;
+                }
+            }
+
+        
+
+
+        .orange {
+            background-image: url('../images/photos/image-photography.jpeg');
+            background-size: 100%;
+            text-align: center;
+            padding: 0 12em;
+            padding-top: 24em;
+            display: flex;
+            flex-direction: column;
+        
+            h2 {
+                padding-bottom: 1.1em;
+                color: $dkblue;
+                font-size: 2em;
+            }
+        
+            p {
+                color: $dkblue;
+            }
+        
+        }
+     
+
+        .iner {
+            padding: 0 4em;
+            text-align: center;
+            
+
+            
+            img {
+                border-radius: 50%;
+                width: 80px;
+            }
+        
+            .comment {
+                padding: 3em 0;
+                color: $dkblue;
+            }
+        
+            h4 {
+                font-family: $frauces700;
+            }
+        
+            .title  {
+                padding-top: 1em;
+                padding-bottom: 12em;
+                color: $gblue;
+                font-size: 0.9em;
+            }
+         
+        }
+        .im {
+            img {
+                width: 24.8%;
+            
+                
+        
+            }
+        }
+        
+
+}
+
+
+footer {
+    background-color: #90d4c5;
+    text-align: center;
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        .about {
+            padding: 0 1.5em;
+            padding-bottom: 3em;
+            font-family: $barlow;
+            color: $dkblue;
+        }
+
+        .social {
+            padding: 0 0.5em;
+        }
+    }
+     img{
+         padding: 2em 0;
+     }
+
+
+
+
+
+
+    }
+
+
+}
