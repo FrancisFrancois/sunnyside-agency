@@ -15,7 +15,7 @@ body {
   
 
 header {
-    background-image: url('../images/photos/image-header.jpeg');
+    background-image: url('./images/photos/image-header.jpeg');
     background-size: 100%;
     background-position: center;
     
@@ -69,13 +69,13 @@ main {
       }
 
 .egg {
-    background-image: url('../images/photos/image-transform.jpeg');
+    background-image: url('./images/photos/image-transform.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .cup {
-    background-image: url('../images/photos/image-stand-out.jpeg');
+    background-image: url('./images/photos/image-stand-out.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -130,7 +130,7 @@ a {
 
 
         .orange {
-            background-image: url('../images/photos/image-photography.jpeg');
+            background-image: url('./images/photos/image-photography.jpeg');
             background-size: 100%;
             text-align: center;
             padding: 0 12em;
